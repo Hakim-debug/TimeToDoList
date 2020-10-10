@@ -15,6 +15,8 @@
 		FD2F8B1D252B91A50085FB99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2F8B1B252B91A50085FB99 /* LaunchScreen.storyboard */; };
 		FD2F8B28252B91A50085FB99 /* TimeToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F8B27252B91A50085FB99 /* TimeToDoTests.swift */; };
 		FD2F8B33252B91A50085FB99 /* TimeToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F8B32252B91A50085FB99 /* TimeToDoUITests.swift */; };
+		FD525481252CF35500D55BF9 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD525480252CF35500D55BF9 /* EntryViewController.swift */; };
+		FD525483252CF3A900D55BF9 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD525482252CF3A900D55BF9 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FD2F8B2E252B91A50085FB99 /* TimeToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2F8B32252B91A50085FB99 /* TimeToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeToDoUITests.swift; sourceTree = "<group>"; };
 		FD2F8B34252B91A50085FB99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD525480252CF35500D55BF9 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		FD525482252CF3A900D55BF9 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				FD2F8B19252B91A50085FB99 /* Assets.xcassets */,
 				FD2F8B1B252B91A50085FB99 /* LaunchScreen.storyboard */,
 				FD2F8B1E252B91A50085FB99 /* Info.plist */,
+				FD525480252CF35500D55BF9 /* EntryViewController.swift */,
+				FD525482252CF3A900D55BF9 /* TaskViewController.swift */,
 			);
 			path = TimeToDo;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD2F8B15252B91A30085FB99 /* ViewController.swift in Sources */,
+				FD525481252CF35500D55BF9 /* EntryViewController.swift in Sources */,
+				FD525483252CF3A900D55BF9 /* TaskViewController.swift in Sources */,
 				FD2F8B11252B91A30085FB99 /* AppDelegate.swift in Sources */,
 				FD2F8B13252B91A30085FB99 /* SceneDelegate.swift in Sources */,
 			);
