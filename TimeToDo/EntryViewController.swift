@@ -31,6 +31,7 @@ class EntryViewController: UIViewController,UITextFieldDelegate {
         
         return true
     }
+    //Saves the task to the List
     @objc func saveTasks(){
         guard let text = field.text, !text.isEmpty else {
             
